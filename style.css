@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    gap: 3em;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    width: 60em;
+    border-right: 2px solid grey;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header li {
+    list-style-type: none;
+    padding: 0.5em;
+    border-top: 1px solid black;
+}
+
+ul {
+    padding: 0;
+}
